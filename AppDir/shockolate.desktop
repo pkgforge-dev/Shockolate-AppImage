@@ -2,7 +2,7 @@
 Type=Application
 Name=Shockolate
 Comment="Source port of the original System Shock"
-Exec=shockolate
+Exec=systemshock
 Icon=shockolate
 StartupWMClass=
 Categories=Game;FPS;Action;
