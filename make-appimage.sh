@@ -10,7 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/shockolate /usr/lib/libfluidsynth.so*
+quick-sharun ./AppDir/bin/systemshock /usr/lib/libfluidsynth.so*
 
 # Additional changes can be done in between here
 
