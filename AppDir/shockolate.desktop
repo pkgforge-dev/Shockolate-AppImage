@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Shockolate
+Comment="Source port of the original System Shock"
+Exec=systemshock
+Icon=shockolate
+StartupWMClass=systemshock
+Categories=Game;FPS;Action;
+Terminal=false
