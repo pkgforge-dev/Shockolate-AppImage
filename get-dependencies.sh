@@ -18,7 +18,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Making nightly build of Shockolate..."
+echo "Building Shockolate..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/Interrupt/systemshock"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
