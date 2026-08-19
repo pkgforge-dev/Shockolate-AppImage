@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Shockolate-AppImage)](https://github.com/pkgforge-dev/Shockolate-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Link4Electronics/Shockolate-AppImage/refs/heads/main/AppDir/shockolate.png" width="128" />
+  <img src="https://raw.githubusercontent.com/pkgforge-dev/Shockolate-AppImage/refs/heads/main/AppDir/shockolate.png" width="128" />
 </p>
 
 
