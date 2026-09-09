@@ -22,7 +22,7 @@ echo "Building Shockolate..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/Interrupt/systemshock"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./systemshock
+git clone --depth 1 "$REPO" ./systemshock
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
