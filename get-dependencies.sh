@@ -26,13 +26,11 @@ git clone --depth 1 "$REPO" ./systemshock
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./systemshock
-mkdir build && cd build
-cmake .. \
+cmake -S ./systemshock -B build \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -DENABLE_SDL2=ON \
 	-DENABLE_FLUIDSYNTH=ON \
 	-DENABLE_SOUND=ON
-make -j$(nproc)
-mv -v systemshock ../../AppDir/bin
+cmake --build build -j$(nproc)
+mv -v build/systemshock ./AppDir/bin
